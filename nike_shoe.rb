@@ -11,4 +11,5 @@ end
 end 
 
 sams_shoes = shoes.new 
-sams_shoes
+sams_shoes.color = "red"
+puts sams_shoe.color 
