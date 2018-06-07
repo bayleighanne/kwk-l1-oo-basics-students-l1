@@ -36,4 +36,6 @@ nat_shoes.laces = "purple"
 nat_shoes = Shoes.new 
 # puts "Natalia's shoes are #{nat_shoes.color}"
 # puts "The color of Sam's shoe is #{sams_shoes.color}"
+puts "the color of Sam's laces is #{sams_shoes.laces}"
+puts "the color of Nat's laces is #{nat_shoes.laces}"
 
