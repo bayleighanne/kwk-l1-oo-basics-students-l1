@@ -7,3 +7,8 @@ end
 def color #tell the user what color the shoe is 
 @this_shoes_color
 end 
+
+end 
+
+sams_shoes = shoes.new 
+sams_shoes
