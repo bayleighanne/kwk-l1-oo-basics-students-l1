@@ -16,11 +16,20 @@ def swoosh=(swoosh_color)
     @this_shoes_swoosh
   end 
   
+  def laces=(shoe_laces)
+    @this_shoes_laces = shoe_laces
+  end
+  
+  def laces 
+    @this_shoes_laces
+  end
+  
 end 
 
-sams_shoes = Shoes.new 
-sams_shoes.color = "red"
-nat_shoes = Shoes.new
-nat_shoes.color = "blue"
+# sams_shoes = Shoes.new 
+# sams_shoes.color = "red"
+# nat_shoes = Shoes.new
+# nat_shoes.color = "blue"
 puts "Natalia's shoes are #{nat_shoes.color}"
 puts "The color of Sam's shoe is #{sams_shoes.color}"
+
