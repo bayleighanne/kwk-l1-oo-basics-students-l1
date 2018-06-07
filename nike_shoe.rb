@@ -14,3 +14,4 @@ sams_shoes = Shoes.new
 sams_shoes.color = "red"
 nat_shoes = shoes.new
 nat_shoes.color = "blue"
+puts "natalia shoes are #{nat_shoes.color}"
