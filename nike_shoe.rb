@@ -10,6 +10,6 @@ end
 
 end 
 
-sams_shoes = shoes.new 
+sams_shoes = Shoes.new 
 sams_shoes.color = "red"
 puts "the color of Sam's shoe is #{sams_shoe.color}"
