@@ -8,6 +8,8 @@ def color #tell the user what color the shoe is
 @this_shoes_color
 end 
 
+def swoosh=(swoosh)
+  
 end 
 
 sams_shoes = Shoes.new 
