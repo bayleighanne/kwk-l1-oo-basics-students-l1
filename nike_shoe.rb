@@ -30,9 +30,9 @@ end
 # sams_shoes.color = "red"
 # nat_shoes = Shoes.new
 # nat_shoes.color = "blue"
+sams_shoes= Shoes.new 
 sams_shoes.laces = "pink"
-sams_shoes = Shoes.new 
-nat_shoes.laces = "purple"
+ nat_shoes.laces = "purple"
 nat_shoes = Shoes.new 
 # puts "Natalia's shoes are #{nat_shoes.color}"
 # puts "The color of Sam's shoe is #{sams_shoes.color}"
